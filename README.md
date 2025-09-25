@@ -1,5 +1,7 @@
 # Explorer Filter
 
+https://github.com/user-attachments/assets/c9228199-f7f2-4c58-9326-859785aae60d
+
 ## Features
 
 Explorer Filter is a VS Code extension that allows you to filter and jump to a folder in the Explorer view.
