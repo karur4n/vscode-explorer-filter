@@ -4,8 +4,6 @@
 
 Explorer Filter is a VS Code extension that allows you to filter and jump to a folder in the Explorer view.
 
-<video src="./assets/demo.mp4" controls muted></video>
-
 ## Default Keybindings
 
 Recommended: Assign keybindings that are easy for you to use!
