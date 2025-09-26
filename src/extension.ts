@@ -2,7 +2,7 @@ import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable1 = vscode.commands.registerCommand(
-    "filter-folder.filter",
+    "explorer-filter.filter",
     async () => {
       vscode.commands.executeCommand("list.find");
     }
@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(disposable1);
 
   const disposable2 = vscode.commands.registerCommand(
-    "filter-folder.reveal",
+    "explorer-filter.reveal",
     async () => {
       await vscode.commands.executeCommand("copyFilePath");
       const filePath = await vscode.env.clipboard.readText();
