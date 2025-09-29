@@ -19,8 +19,9 @@ export function activate(context: vscode.ExtensionContext) {
 
       await vscode.commands.executeCommand("list.closeFind");
 
+      // Wait for find filter provider closed
       // Adjusted value based on actual testing
-      await sleep(300);
+      await sleep(500);
 
       vscode.commands.executeCommand("revealInExplorer", fileUri);
     }

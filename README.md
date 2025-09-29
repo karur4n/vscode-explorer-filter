@@ -6,18 +6,20 @@ https://github.com/user-attachments/assets/3c25339d-cbdb-4746-af88-b6585d99eb55
 
 Explorer Filter is a VS Code extension that allows you to filter and jump to a folder in the Explorer view.
 
-## Default Keybindings
+## Keybindings
 
 Recommended: Assign keybindings that are easy for you to use!
 
-`explorer-filter.filter`
+### `explorer-filter.filter`
 
-- `cmd+/`
+- default keybinding: `cmd+/`
 - Filter in the Explorer view. (This is alias of vscode default `list.find` command)
+  - **After launching `list.find`, you need to set it to filter mode yourself**
+    - 😀 If you know how to automatically set it to filter mode, please let me know!
 
-`explorer-filter.reveal`
+### `explorer-filter.reveal`
 
-- `cmd+enter`
+- default keybinding: `cmd+enter`
 - Reveal a folder in the Explorer view.
 
 ## Known Issues
